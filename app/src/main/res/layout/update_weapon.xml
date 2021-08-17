@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".updateWeapon" >
+
+    <TextView
+        android:id="@+id/tvID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/id"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:fontFamily="@font/eightbitdragon"
+        />
+
+    <EditText
+        android:id="@+id/etID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:fontFamily="@font/eightbitdragon"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name of Weapon"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:fontFamily="@font/eightbitdragon"
+        />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Weapon Name"
+        android:fontFamily="@font/eightbitdragon"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:fontFamily="@font/eightbitdragon"
+        />
+
+    <EditText
+        android:id="@+id/etDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter weapon description here"
+        android:fontFamily="@font/eightbitdragon"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:fontFamily="@font/eightbitdragon"
+        />
+
+    <EditText
+        android:id="@+id/etPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter price here"
+        android:fontFamily="@font/eightbitdragon"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/stars"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:fontFamily="@font/eightbitdragon"
+        />
+
+    <RatingBar
+        android:id="@+id/ratingStars1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:rating="2"
+        android:stepSize="1"
+        android:descendantFocusability="blocksDescendants"
+        android:theme="@style/RatingBar"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/update"
+            android:fontFamily="@font/eightbitdragon"
+            />
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/delete"
+            android:fontFamily="@font/eightbitdragon"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel"
+        android:fontFamily="@font/eightbitdragon"
+        />
+
+</LinearLayout>

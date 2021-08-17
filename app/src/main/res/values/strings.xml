@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Dungeon Trader</string>
+    <string name="title">Name</string>
+    <string name="hint_title">Enter weapon name here</string>
+    <string name="description">Description</string>
+    <string name="hint_desc">Enter description here</string>
+    <string name="price">Price</string>
+    <string name="hint_km">Enter price here</string>
+    <string name="stars">Stars</string>
+    <string name="five">5</string>
+    <string name="four">4</string>
+    <string name="three">3</string>
+    <string name="two">2</string>
+    <string name="one">1</string>
+
+    <string name="title_activity_main">Menu</string>
+    <string name="title_shop_menu">Add Weapon</string>
+    <string name="title_weapon_list">Weapon List</string>
+    <string name="title_update_weapon">Update Weapon</string>
+
+    <string name="id">Weapon ID</string>
+    <string name="btnShowList">Show List</string>
+    <string name="btnInsert">List Item</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="btn5Stars">Show all weapons with 5 stars</string>
+
+    <string-array name="price">
+        <item>Default</item>
+    </string-array>
+</resources>
